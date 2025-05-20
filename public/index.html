@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        ul { list-style: none; padding: 0; }
+        input { width: 300px; padding: 8px; }
+    </style>
+</head>
+<body>
+    <h2>Chat</h2>
+    <ul id="messages"></ul>
+    <input id="input" autocomplete="off" placeholder="Tape ton message..." />
+    
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="chat.js"></script>
+</body>
+</html>
